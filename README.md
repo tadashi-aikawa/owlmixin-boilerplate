@@ -28,11 +28,11 @@ $ python main.py --config config.yml 'owl'
 
 Awesome !!
 
-## One more things
+### One more things
 
 Edit `config.yml`, and check both what is output and why outputs.
 
-### Default
+#### Default
 
 ```
 $ cat config.yml
@@ -40,23 +40,29 @@ lower_star_count: 50
 head: 3
 ```
 
-### `lower_star_count` is empty
+#### `lower_star_count` is empty
 
 ```
 $ cat config.yml
 head: 3
 ```
 
-### `head` is empty
+#### `head` is empty
 
 ```
 $ cat config.yml
 lower_star_count: 50
 ```
 
-### Everything are empty
+#### Everything are empty
 
 ```
 $ cat config.yml
 {}
+```
+
+## Test
+
+```
+$ pytest
 ```
