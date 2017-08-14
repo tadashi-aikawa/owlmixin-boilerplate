@@ -1,5 +1,7 @@
 # owlmixin-boilerplate
 
+![](https://img.shields.io/pypi/pyversions/owlmixin.svg)
+
 Boilerplate for [Owlmixin](https://github.com/tadashi-aikawa/owlmixin).
 
 First, make venv (>=3.6).
