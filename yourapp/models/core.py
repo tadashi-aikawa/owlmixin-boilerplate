@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from owlmixin import OwlMixin, TList, TDict, TOption, OwlEnum, OwlObjectEnum
+from owlmixin import OwlMixin, TOption
 
 
 class Args(OwlMixin):
     config: str
-    stdin: str
+    word: str
 
 
 class Config(OwlMixin):
-    hello_list: TList[str]
-
+    lower_star_count: int = 10
+    head: TOption[int]

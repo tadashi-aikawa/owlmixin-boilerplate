@@ -4,6 +4,7 @@ requires = [
     'owlmixin',
     'fn',
     'docopt',
+    "requests"
 ]
 extras = {
     'test': ['pytest']

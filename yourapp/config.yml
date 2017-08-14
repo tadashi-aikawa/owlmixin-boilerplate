@@ -1,6 +1,2 @@
-hello_list:
-  - tadashi
-  - aikawa
-  - owl
-  - mimizou
-
+lower_star_count: 50
+head: 3
