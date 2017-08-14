@@ -1,8 +1,14 @@
 # owlmixin-boilerplate
 
+First, Make venv (>=3.6).
+
+## Install dependencies
+
 ```
-$ pip install -r requirements.txt
+$ pip install -e .[test] -c constraints.txt
 ```
+
+## Run
 
 ```
 $ cd yourapp

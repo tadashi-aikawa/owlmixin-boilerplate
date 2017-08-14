@@ -1,4 +1,0 @@
-owlmixin==2.0.0a10
-fn
-docopt
-

@@ -10,7 +10,8 @@ Options:
   <stdin> = <stdin>     Standard input
 """
 
-import os, sys
+import os
+import sys
 
 from docopt import docopt
 from fn import _
