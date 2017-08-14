@@ -1,6 +1,6 @@
 import re
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 APP_NAME = 'yourapp'
 
@@ -22,6 +22,7 @@ setup(
     install_requires=requires,
     test_requires=extras['test'],
     extras_require=extras,
+    packages=find_packages(exclude=['tests*']),
     entry_points={
         'console_scripts': [
             f'{APP_NAME} = {APP_NAME}.main:main'
