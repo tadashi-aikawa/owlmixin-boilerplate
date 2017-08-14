@@ -66,3 +66,30 @@ $ cat config.yml
 ```
 $ pytest
 ```
+
+## Support for pip install
+
+Install according to `constraints.txt`.
+
+```
+$ wget https://raw.githubusercontent.com/tadashi-aikawa/owlmixin-boilerplate/master/constraints.txt
+$ pip install git+https://github.com/tadashi-aikawa/owlmixin-boilerplate.git -c constraints.txt 
+```
+
+Create empty `config.yml` and run.
+
+```
+$ echo '{}' > config.yml
+$ yourapp --config config.yml 'git'
+- id: 1062897
+  name: gitignore
+  stargazers_count: 53488
+- id: 16752620
+  name: gogs
+  stargazers_count: 20409
+- id: 36502
+  name: git
+  stargazers_count: 18650
+```
+
+Awesome !!
