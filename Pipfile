@@ -19,3 +19,8 @@ pipenv = "*"
 owlmixin = "*"
 docopt = "*"
 fn = "*"
+
+[requires]
+
+python_version = "3.6"
+
