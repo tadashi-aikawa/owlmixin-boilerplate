@@ -1,23 +1,25 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "741f8ff2f7053a81d4a808f312513f7a4f736e7c3556681be466496093aad9b7"
+            "sha256": "8a104d5b57bcfcbcadb53440c3d84db8ed281110d70263682363d2352cfe0f82"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
-            "implementation_version": "3.5.2",
+            "implementation_version": "3.6.3",
             "os_name": "posix",
             "platform_machine": "x86_64",
             "platform_python_implementation": "CPython",
             "platform_release": "4.4.0-87-generic",
             "platform_system": "Linux",
             "platform_version": "#110-Ubuntu SMP Tue Jul 18 12:55:35 UTC 2017",
-            "python_full_version": "3.5.2",
-            "python_version": "3.5",
+            "python_full_version": "3.6.3",
+            "python_version": "3.6",
             "sys_platform": "linux"
         },
         "pipfile-spec": 6,
-        "requires": {},
+        "requires": {
+            "python_version": "3.6"
+        },
         "sources": [
             {
                 "name": "pypi",
@@ -41,9 +43,9 @@
         },
         "owlmixin": {
             "hashes": [
-                "sha256:b28f9c36b4506eedc52c57767cd1fe74e90df196cf6fc58fde9188e801e9c95a"
+                "sha256:a1b0d9b0f2885067100863479afebd2eca350fb9a3cacc081d28623d07948046"
             ],
-            "version": "==2.1.0"
+            "version": "==2.1.1"
         },
         "pyyaml": {
             "hashes": [

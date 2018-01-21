@@ -36,7 +36,7 @@ def main():
             .filter(_.stargazers_count > config.lower_star_count)
             .order_by(_.stargazers_count, reverse=True)
             .head(config.head.get_or(3))
-            .to_yaml()
+            .to_table(['id', 'name', 'stargazers_count'])
     )
 
 
